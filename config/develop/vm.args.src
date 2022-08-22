@@ -1,0 +1,9 @@
+## Name of the node
+-sname erl_template
+## Cookie for distributed erlang
+-setcookie erl_template
+## Enable kernel poll and a few async threads
++K true
++A 4
+## Increase number of concurrent ports/sockets
+-env ERL_MAX_PORTS 65535
